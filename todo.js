@@ -12,13 +12,11 @@ var deleteButton=document.createElement("button");
 label.innerText=taskString;
 	checkBox.type="checkbox";
 	editInput.type="text";
-
 	editButton.innerText="Edit";
 	editButton.className="edit";
 	deleteButton.innerText="Delete";
 	deleteButton.className="delete";
-
-    listItem.appendChild(checkBox);
+    	listItem.appendChild(checkBox);
 	listItem.appendChild(label);
 	listItem.appendChild(editInput);
 	listItem.appendChild(editButton);
@@ -77,8 +75,6 @@ var ajaxRequest=function()
 addButton.onclick=addTask;
 addButton.addEventListener("click",addTask);
 addButton.addEventListener("click",ajaxRequest);
-
-
 var bindTaskEvents=function(taskListItem,checkBoxEventHandler)
 {
 	console.log("bind list item events");
