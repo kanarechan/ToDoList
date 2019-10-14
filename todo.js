@@ -25,9 +25,6 @@ label.innerText=taskString;
 	listItem.appendChild(deleteButton);
 	return listItem;
 }
-
-
-
 var addTask=function(){
 	console.log("Add Task...");
 	var listItem=createNewTaskElement(taskInput.value);
@@ -38,10 +35,7 @@ var addTask=function(){
 var editTask=function(){
 console.log("Edit Task...");
 console.log("Change 'edit' to 'save'");
-
-
 var listItem=this.parentNode;
-
 var editInput=listItem.querySelector('input[type=text]');
 var label=listItem.querySelector("label");
 var containsClass=listItem.classList.contains("editMode");
