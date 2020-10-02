@@ -9,7 +9,7 @@ git clone https://github.com/kanarechan/ToDoList.git
 2. Go to directory ToDoList
 3. Open file index.html
 
-** Hope you like it **
+## Hope you like it
 
 Credit: 
 [https://github.com/Aaris03Khan](https://github.com/Aaris03Khan)
